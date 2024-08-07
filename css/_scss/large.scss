@@ -1,0 +1,67 @@
+/** COMPILED FROM SCSS SOURCE. DO NOT EDIT DIRECTLY */
+
+// 
+// SCSS SOURCE FILE - comment above will be rendered to css file - please
+//	disregard it and only edit this file.  
+//
+
+// the vars
+@import "_mm_vars";
+
+///////////////////////////////////
+// body
+///////////////////////////////////
+
+html, body { }
+
+///////////////////////////////////
+// mobile, tablet test and disable parallax (jquery tests for this)
+///////////////////////////////////
+
+#isSmall { visibility: hidden; float: none; }
+#isMedium { visibility: hidden; float: none; }
+#isLarge { visibility: hidden; float: left; }
+
+///////////////////////////////////
+// top bar
+///////////////////////////////////
+
+
+///////////////////////////////////
+// large chapter images
+///////////////////////////////////
+
+.chapterImage {	
+
+	&.c0 {		
+		background: #eee url(#{$img_path}/Group_Hero.jpg) no-repeat top center fixed;
+		background-size: cover;
+	}
+}
+
+
+///////////////////////////////////
+// article content
+///////////////////////////////////
+
+.chapter {
+}
+
+section {
+	
+	p {
+		font-size: 1.1em;
+		line-height: 1.5em;
+	}
+
+}
+
+///////////////////////////////////
+// featured content
+///////////////////////////////////
+
+
+///////////////////////////////////
+// footer
+///////////////////////////////////
+

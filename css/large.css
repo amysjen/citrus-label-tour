@@ -1,0 +1,25 @@
+/** COMPILED FROM SCSS SOURCE. DO NOT EDIT DIRECTLY */
+#isSmall {
+  visibility: hidden;
+  float: none;
+}
+
+#isMedium {
+  visibility: hidden;
+  float: none;
+}
+
+#isLarge {
+  visibility: hidden;
+  float: left;
+}
+
+.chapterImage.c0 {
+  background: #eee url(https://www.maddencdn.com/content/images/2022/lake-county/citrus-label-tour/Group_Hero.jpg) no-repeat top center fixed;
+  background-size: cover;
+}
+
+section p {
+  font-size: 1.1em;
+  line-height: 1.5em;
+}

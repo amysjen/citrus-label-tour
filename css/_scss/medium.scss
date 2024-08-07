@@ -1,0 +1,96 @@
+/** COMPILED FROM SCSS SOURCE. DO NOT EDIT DIRECTLY */
+
+// 
+// SCSS SOURCE FILE - comment above will be rendered to css file - please
+//	disregard it and only edit this file.  
+//
+
+// the vars
+@import "_mm_vars";
+
+///////////////////////////////////
+// body
+///////////////////////////////////
+
+html, body { }
+
+///////////////////////////////////
+// mobile, tablet test and disable parallax (jquery tests for this)
+///////////////////////////////////
+
+#isSmall { visibility: hidden; float: none; }
+#isMedium { visibility: hidden; float: left; }
+#isLarge { visibility: hidden; float: none; }
+
+///////////////////////////////////
+// top bar
+///////////////////////////////////
+
+.top {
+
+}
+
+///////////////////////////////////
+// large chapter images
+///////////////////////////////////
+
+.chapterImage {	
+
+	&.c0 {		
+		background: transparent url(#{$img_path}/Group_Hero.jpg) no-repeat top center scroll;
+		background-size: cover;		
+	}
+	
+}
+
+///////////////////////////////////
+// article content
+///////////////////////////////////
+
+.chapter { 
+}
+
+section {
+	width: 75% !important;
+
+	h2 {
+		font-size: 2.5em;
+	}
+	
+	h3 {
+		font-size: 1.75em;
+	}
+	
+	p {
+		font-size: 1.1em;
+		line-height: 1.6em;
+	}
+
+}
+
+
+///////////////////////////////////
+// footer
+///////////////////////////////////
+
+.footer {
+	
+	.alsoLikeLinkWrap {
+		
+		.linkWrapper {
+			padding-bottom: 14%;
+			margin: 0 5px;
+		}
+		
+		.link {			
+			.linkTitleWrapper {
+				padding: 5px 10px;
+				
+				.linkTitle {
+					font-size: 14px;
+					line-height: 18px;
+				}
+			}
+		}
+	}
+}	
